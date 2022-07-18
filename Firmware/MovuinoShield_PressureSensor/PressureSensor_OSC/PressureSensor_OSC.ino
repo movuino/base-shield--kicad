@@ -6,8 +6,8 @@ WiFiUDP Udp; // A UDP instance to let us send and receive packets over UDP
 // const IPAddress outIp(192,168,43,157); // hssnadr
 const IPAddress outIp(192,168,1,10); // LANCRY
 // Network settings
-char ssid[] = "Livebox-FC82"; // your network SSID (name)
-char pass[] = "LANCRY666";  // your network password
+char ssid[] = "Livebox-XXXX"; // your network SSID (name)
+char pass[] = "XXXX";  // your network password
 unsigned int localPort = 7777; // local port to listen for OSC packets
 bool _sendOsc = true;
 
