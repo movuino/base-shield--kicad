@@ -116,7 +116,7 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000061a045a3")
     (attr through_hole)
-    (fp_text reference "TOP_DF12" (at 5 13 90) (layer "F.SilkS") hide
+    (fp_text reference "TOP_DF12" (at 13.55 28.64 90) (layer "F.SilkS") hide
         (effects (font (size 0.60325 0.60325) (thickness 0.0508)) (justify left top))
       (tstamp ab0b6525-f85f-4399-970c-c31b1ca3c782)
     )
@@ -124,7 +124,7 @@
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
       (tstamp e7ec7671-9372-457d-bfa5-b7b3287ca508)
     )
-    (fp_text user "${REFERENCE}" (at -1.7 9.5 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 11.84 32.32 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7495dd7-fd8a-4f51-bbbc-95b72fe071a5)
     )
@@ -44929,7 +44929,7 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-0000615f0003")
     (attr through_hole)
-    (fp_text reference "BOTTOM_DF12" (at 2.5 13 90) (layer "B.SilkS") hide
+    (fp_text reference "BOTTOM_DF12" (at 15.08 30.55 90) (layer "B.SilkS") hide
         (effects (font (size 0.60325 0.60325) (thickness 0.0508)) (justify right top mirror))
       (tstamp 0063a3f6-db13-4ff9-a37a-711473733eac)
     )
@@ -45745,7 +45745,6 @@
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 2) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
 
-  (via (at 145 115) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 06e97fc2-7ece-4040-bd72-1d2367bc69ea))
   (segment (start 129.1999 98.75) (end 129.1999 99.25) (width 0.25) (layer "F.Cu") (net 1) (tstamp 027d78b1-b30d-4d71-b3c5-2f41c9289251))
   (segment (start 131.1 99.6) (end 131.1 100.8) (width 0.25) (layer "F.Cu") (net 1) (tstamp 105eb3d9-2f8c-481d-8683-40fa2e03d0a4))
   (segment (start 130.75 99.25) (end 131.1 99.6) (width 0.25) (layer "F.Cu") (net 1) (tstamp 3f3f7b36-16dc-403d-adbf-b0b3509925c7))
